@@ -164,7 +164,7 @@ define([
         _executeMf: function(obj, mf, callback) {
             logger.debug(this.id + "._executeMf: ", mf);
             if (obj && mf !== "") {
-                mx.ui.action(mf, {
+                mx.data.action(mf, {
                     params: {
                         applyto: "selection",
                         guids: [obj.getGuid()]

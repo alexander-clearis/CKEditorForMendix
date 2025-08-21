@@ -6,9 +6,26 @@ This [widget](https://appstore.home.mendix.com/link/app/1715/Mendix/CKEditor-For
 
 Current [CKEditor version](http://ckeditor.com/whatsnew): 4.10.0
 
+## Development
+
+### Prerequisites
+
+- Node.js 8.x
+- npm 6.x (lock file version 1)
+
+### Building
+
+To build the widget for development, run:
+
+```bash
+npm run dev
+```
+
 ## Contributing
 
 For more information on contributing to this repository visit [Contributing to a GitHub repository](https://world.mendix.com/display/howto50/Contributing+to+a+GitHub+repository)!
+
+
 
 ## Typical usage scenario
 
