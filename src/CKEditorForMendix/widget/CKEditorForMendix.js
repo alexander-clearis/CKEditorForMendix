@@ -164,10 +164,11 @@ define([
         _executeMf: function(obj, mf, callback) {
             logger.debug(this.id + "._executeMf: ", mf);
             if (obj && mf !== "") {
-                mx.data.action(mf, {
+                mx.data.action({
                     params: {
                         applyto: "selection",
-                        guids: [obj.getGuid()]
+                        guids: [obj.getGuid()],
+                        actionname: mf,
                     },
                     callback: callback || function() {},
                     error: lang.hitch(this, function(error) {
